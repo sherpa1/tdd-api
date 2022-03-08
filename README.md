@@ -10,7 +10,7 @@ Utiliser les framework Express.js(https://expressjs.com) et Jest (https://jestjs
 
 Si nécessaire, tester d'abord les requêtes et résultats retournés sur l'API JSON PlaceHolder (https://jsonplaceholder.typicode.com/) puis implémenter l'API.
 
-### Routes :
+### Routes
 
 - Post /tasks
 - Get /tasks
@@ -21,6 +21,27 @@ Si nécessaire, tester d'abord les requêtes et résultats retournés sur l'API 
 
 Tester les résultats retournés (Body, Headers, Code de statut HTTP, scénarios d'erreur...).
 
+### Commandes utiles
+
+- Installation des dépendances NPM
+
+ ```
+ npm install
+ ```
+
+- Hot Reloading
+
+```
+npm run watch
+```
+
+- Tests
+
+```
+npm run test
+```
+
+_Pour tester l'API, démarrer le projet dans un premier onglet du terminal, puis effectuer les tests dans un second onglet du terminal_
 
 ---
 
